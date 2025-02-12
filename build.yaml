@@ -25,5 +25,5 @@ include:
     shield: tbkmini_right
   - board: nice_nano_v2
     shield: settings_reset
-  - board: nice_nano_v2
+  - board: seeeduino_xiao_ble
     shield: tbkmini_dongle
