@@ -45,7 +45,7 @@
                         bindings = <
     &trans      &kp EXCL    &kp AT     &kp HASH  &kp DLLR  &kp PRCNT   &kp CARET   &kp AMPS    &kp STAR    &kp LPAR    &kp RPAR    &kp GRAVE
     &trans      &kp N1      &kp N2     &kp N3    &kp N4    &kp N5      &kp N6      &kp N7      &kp N8      &kp N9      &kp N0      &kp TILDE
-    &trans      &kp MINUS   &kp UNDER  &kp EQUAL &kp PLUS  &kp LBKT    &kp RBKT    &kp LBRC    &kp RBRC    &kp BSLH    &kp PIPE      &trans
+    &trans      &kp MINUS   &kp UNDER  &kp EQUAL &kp PLUS  &kp LBKT    &kp RBKT    &kp LBRC    &kp RBRC    &kp BSLH    &kp PIPE    &trans
                                        &trans    &trans    &trans      &trans      &trans      &trans
                         >;
                 };
@@ -55,9 +55,9 @@
 // | TAB  |      |      |      |      |      |   | INS | HOME |  UP  | END | PGUP | ESC  |
 // | RCTL | LOCK | SCSH | APP  | CAPS | NMLK |   | DEL | LEFT |  DN  | RGT | PGDN |      | 
 // | RALT | BR-  | BR+  | VOL- | VOL+ | VOLx |   |     | PRV  | P/P  | NXT |      | RGUI |
-//                     | SHFT | ENT  |      |   |     | SPC  | BKSP |
+//                      | SHFT | ENT  |      |   |     | SPC  | BKSP |
                         bindings = <
-    &trans      &none         &none         &none         &none         &none          &kp INS   &kp HOME    &kp UP     &kp END     &kp PG_UP  &kp BSPC
+    &trans      &none         &none         &none         &none         &none          &kp INS   &kp HOME    &kp UP     &kp END     &kp PG_UP  &kp ESC
     &kp RCTRL   &kp C_AL_LOCK &kp PSCRN     &kp K_APP     &kp CAPS      &kp KP_NUM     &kp DEL   &kp LEFT    &kp DOWN   &kp RIGHT   &kp PG_DN  &none
     &kp RALT    &kp C_BRI_DN  &kp C_BRI_UP  &kp C_VOL_DN  &kp C_VOL_UP  &kp C_MUTE     &none     &kp C_PREV  &kp C_PP   &kp C_NEXT  &none      &kp RGUI
                                             &trans        &trans        &trans         &trans    &trans      &trans
